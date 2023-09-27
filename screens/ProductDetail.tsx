@@ -233,6 +233,7 @@ const ProductDetail: React.FC<Props> = ({ route, navigation }) => {
             }}
           >
             $ {product.price}
+            </Text>
             <TouchableOpacity
               style={{
                 backgroundColor: Colors.primary, 
@@ -254,14 +255,13 @@ const ProductDetail: React.FC<Props> = ({ route, navigation }) => {
                 style={{
                   fontFamily: Font["poppins-semiBold"],
                   color: Colors.onPrimary, 
-                  fontSize: Spacing * 2.5, 
+                  fontSize: Spacing * 2, 
                   marginLeft: Spacing / 2, 
                 }}
               >
                 Add to cart 
               </Text>
             </TouchableOpacity>
-          </Text>
         </View>
 
     </SafeAreaView>
